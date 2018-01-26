@@ -10,9 +10,6 @@ test_cases = {
     "simple": {
         "input": [
             {"value": "1000"},
-            {"value": "1000"},
-            {"value": "1,000"},
-            {"value": "1000"},
             {"value": "1,000"}
         ],
         "output": {"value": 1000, "units": None}
